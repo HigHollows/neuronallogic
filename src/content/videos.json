@@ -1,0 +1,600 @@
+[
+  {
+    "id": "aircAruvnKk",
+    "level": "debutant",
+    "topics": [
+      "reseaux-de-neurones"
+    ],
+    "lessonIds": [
+      "l-reseau",
+      "n-01"
+    ],
+    "language": "en",
+    "note": "Visualisation de référence : neurones, couches, poids.",
+    "title": "But what is a neural network? | Deep learning chapter 1",
+    "channel": "3Blue1Brown",
+    "seconds": 1120,
+    "publishedAt": "2017-10-05",
+    "frenchSubtitles": true,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "IHZwWFHWa-w",
+    "level": "debutant",
+    "topics": [
+      "reseaux-de-neurones",
+      "entrainement"
+    ],
+    "lessonIds": [
+      "l-apprentissage"
+    ],
+    "language": "en",
+    "note": "Descente de gradient et apprentissage.",
+    "title": "Gradient descent, how neural networks learn | Deep Learning Chapter 2",
+    "channel": "3Blue1Brown",
+    "seconds": 1233,
+    "publishedAt": "2017-10-16",
+    "frenchSubtitles": true,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "Ilg3gGewQ5U",
+    "level": "intermediaire",
+    "topics": [
+      "reseaux-de-neurones",
+      "entrainement"
+    ],
+    "lessonIds": [
+      "l-apprentissage"
+    ],
+    "language": "en",
+    "note": "Rétropropagation, sans calcul formel.",
+    "title": "Backpropagation, intuitively | Deep Learning Chapter 3",
+    "channel": "3Blue1Brown",
+    "seconds": 767,
+    "publishedAt": "2017-11-03",
+    "frenchSubtitles": true,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "wjZofJX0v4M",
+    "level": "debutant",
+    "topics": [
+      "llm",
+      "transformer"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "n-02"
+    ],
+    "language": "en",
+    "note": "Vue d'ensemble visuelle du Transformer et de la génération de texte.",
+    "title": "Transformers, the tech behind LLMs | Deep Learning Chapter 5",
+    "channel": "3Blue1Brown",
+    "seconds": 1634,
+    "publishedAt": "2024-04-01",
+    "frenchSubtitles": true,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "eMlx5fFNoYc",
+    "level": "intermediaire",
+    "topics": [
+      "llm",
+      "transformer",
+      "attention"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "e-attention-calcul"
+    ],
+    "language": "en",
+    "note": "Le mécanisme d'attention en détail.",
+    "title": "Attention in transformers, step-by-step | Deep Learning Chapter 6",
+    "channel": "3Blue1Brown",
+    "seconds": 1569,
+    "publishedAt": "2024-04-07",
+    "frenchSubtitles": true,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "zjkBMFhNj_g",
+    "level": "debutant",
+    "topics": [
+      "llm"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "l-limites",
+      "n-02"
+    ],
+    "language": "en",
+    "note": "Introduction générale aux LLM, ses usages et ses risques.",
+    "title": "[1hr Talk] Intro to Large Language Models",
+    "channel": "Andrej Karpathy",
+    "seconds": 3588,
+    "publishedAt": "2023-11-22",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "7xTGNNLPyMI",
+    "level": "intermediaire",
+    "topics": [
+      "llm",
+      "entrainement",
+      "hallucinations"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "l-hallucinations"
+    ],
+    "language": "en",
+    "note": "Très long : à parcourir par chapitres.",
+    "title": "Deep Dive into LLMs like ChatGPT",
+    "channel": "Andrej Karpathy",
+    "seconds": 12683,
+    "publishedAt": "2025-02-05",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "kCc8FmEb1nY",
+    "level": "avance",
+    "topics": [
+      "llm",
+      "transformer"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "e-attention-calcul"
+    ],
+    "language": "en",
+    "note": "Construction d'un petit GPT en code. Demande de savoir lire du Python.",
+    "title": "Let's build GPT: from scratch, in code, spelled out.",
+    "channel": "Andrej Karpathy",
+    "seconds": 6980,
+    "publishedAt": "2023-01-17",
+    "frenchSubtitles": true,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "zduSFxRajkE",
+    "level": "avance",
+    "topics": [
+      "tokens"
+    ],
+    "lessonIds": [
+      "l-llm"
+    ],
+    "language": "en",
+    "note": "Construction d'un tokenizer. Très technique.",
+    "title": "Let's build the GPT Tokenizer",
+    "channel": "Andrej Karpathy",
+    "seconds": 8014,
+    "publishedAt": "2024-02-20",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "FJtFZwbvkI4",
+    "level": "intermediaire",
+    "topics": [
+      "embeddings"
+    ],
+    "lessonIds": [
+      "l-embeddings"
+    ],
+    "language": "en",
+    "note": "Extrait court sur les vecteurs de mots.",
+    "title": "How word vectors encode meaning",
+    "channel": "3Blue1Brown",
+    "seconds": 60,
+    "publishedAt": "2024-04-11",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "wgfSDrqYMJ4",
+    "level": "debutant",
+    "topics": [
+      "embeddings"
+    ],
+    "lessonIds": [
+      "l-embeddings"
+    ],
+    "language": "en",
+    "title": "What are Word Embeddings?",
+    "channel": "IBM Technology",
+    "seconds": 518,
+    "publishedAt": "2024-08-20",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "viZrOnJclY0",
+    "level": "intermediaire",
+    "topics": [
+      "embeddings"
+    ],
+    "lessonIds": [
+      "l-embeddings"
+    ],
+    "language": "en",
+    "note": "Plus ancien et centré sur word2vec : utile pour l'intuition.",
+    "title": "Word Embedding and Word2Vec, Clearly Explained!!!",
+    "channel": "StatQuest with Josh Starmer",
+    "seconds": 971,
+    "publishedAt": "2023-03-12",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "T-D1OfcDW1M",
+    "level": "debutant",
+    "topics": [
+      "rag"
+    ],
+    "lessonIds": [
+      "l-rag",
+      "n-03"
+    ],
+    "language": "en",
+    "title": "What is Retrieval-Augmented Generation (RAG)?",
+    "channel": "IBM Technology",
+    "seconds": 395,
+    "publishedAt": "2023-08-23",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "00Q0G84kq3M",
+    "level": "debutant",
+    "topics": [
+      "rag",
+      "fine-tuning"
+    ],
+    "lessonIds": [
+      "l-memoire-finetuning",
+      "e-adaptation-modeles"
+    ],
+    "language": "en",
+    "title": "RAG vs. Fine Tuning",
+    "channel": "IBM Technology",
+    "seconds": 537,
+    "publishedAt": "2024-09-09",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "zYGDpG-pTho",
+    "level": "intermediaire",
+    "topics": [
+      "rag",
+      "fine-tuning",
+      "prompting"
+    ],
+    "lessonIds": [
+      "l-memoire-finetuning",
+      "l-rag",
+      "e-rag-avance"
+    ],
+    "language": "en",
+    "title": "RAG vs Fine-Tuning vs Prompt Engineering: Optimizing AI Models",
+    "channel": "IBM Technology",
+    "seconds": 790,
+    "publishedAt": "2025-04-14",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "-0MmWEYR2a8",
+    "level": "debutant",
+    "topics": [
+      "api"
+    ],
+    "lessonIds": [
+      "l-api",
+      "n-03"
+    ],
+    "language": "en",
+    "title": "What is an API? (explained in 3 minutes)",
+    "channel": "Postman",
+    "seconds": 198,
+    "publishedAt": "2023-12-14",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "1mXrxc_sv1o",
+    "level": "debutant",
+    "topics": [
+      "frontend-backend"
+    ],
+    "lessonIds": [
+      "l-frontend-backend"
+    ],
+    "language": "en",
+    "note": "Très court.",
+    "title": "Front-end vs back-end: What's the difference?",
+    "channel": "Codecademy",
+    "seconds": 75,
+    "publishedAt": "2021-09-24",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "qmpUfWN7hh4",
+    "level": "debutant",
+    "topics": [
+      "api",
+      "http"
+    ],
+    "lessonIds": [
+      "l-requete-erreurs"
+    ],
+    "language": "en",
+    "title": "HTTP Status Codes Explained In 5 Minutes",
+    "channel": "ByteByteGo",
+    "seconds": 306,
+    "publishedAt": "2023-10-12",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "cj3h3Fb10QY",
+    "level": "debutant",
+    "topics": [
+      "api",
+      "json"
+    ],
+    "lessonIds": [
+      "l-api"
+    ],
+    "language": "en",
+    "title": "What is JSON? (Explained in 5 minutes)",
+    "channel": "Hostinger Academy",
+    "seconds": 343,
+    "publishedAt": "2022-11-24",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "eur8dUO9mvE",
+    "level": "debutant",
+    "topics": [
+      "mcp"
+    ],
+    "lessonIds": [
+      "l-mcp",
+      "n-04"
+    ],
+    "language": "en",
+    "title": "What is MCP? Integrate AI Agents with Databases & APIs",
+    "channel": "IBM Technology",
+    "seconds": 226,
+    "publishedAt": "2025-02-19",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "cGuyrANVi4A",
+    "level": "intermediaire",
+    "topics": [
+      "mcp"
+    ],
+    "lessonIds": [
+      "l-mcp",
+      "l-serveur-mcp"
+    ],
+    "language": "en",
+    "note": "Récente : à comparer avec la spécification en vigueur.",
+    "title": "How Model Context Protocol (MCP) actually works",
+    "channel": "Google Cloud Tech",
+    "seconds": 478,
+    "publishedAt": "2026-06-24",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "7j1t3UZA1TY",
+    "level": "intermediaire",
+    "topics": [
+      "mcp",
+      "api"
+    ],
+    "lessonIds": [
+      "l-mcp"
+    ],
+    "language": "en",
+    "title": "MCP vs API: Simplifying AI Agent Integration with External Data",
+    "channel": "IBM Technology",
+    "seconds": 790,
+    "publishedAt": "2025-05-05",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "uhJJgc-0iTQ",
+    "level": "intermediaire",
+    "topics": [
+      "agents"
+    ],
+    "lessonIds": [
+      "l-skills-workflows-agents",
+      "n-04",
+      "e-agents-fiables"
+    ],
+    "language": "en",
+    "title": "Building more effective AI agents",
+    "channel": "Anthropic",
+    "seconds": 1138,
+    "publishedAt": "2025-10-17",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "D7_ipDqhtwk",
+    "level": "intermediaire",
+    "topics": [
+      "agents",
+      "workflows"
+    ],
+    "lessonIds": [
+      "l-skills-workflows-agents",
+      "e-agents-fiables"
+    ],
+    "language": "en",
+    "note": "Conférence : quand utiliser (ou non) un agent.",
+    "title": "How We Build Effective Agents: Barry Zhang, Anthropic",
+    "channel": "AI Engineer",
+    "seconds": 909,
+    "publishedAt": "2025-04-04",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "fOxC44g8vig",
+    "level": "debutant",
+    "topics": [
+      "skills"
+    ],
+    "lessonIds": [
+      "l-skills-workflows-agents"
+    ],
+    "language": "en",
+    "note": "Présente le concept de skill tel que défini par un fournisseur précis.",
+    "title": "Claude Agent Skills Explained",
+    "channel": "Anthropic",
+    "seconds": 194,
+    "publishedAt": "2025-11-26",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "CEvIs9y1uog",
+    "level": "intermediaire",
+    "topics": [
+      "skills",
+      "agents"
+    ],
+    "lessonIds": [
+      "l-skills-workflows-agents"
+    ],
+    "language": "en",
+    "title": "Don't Build Agents, Build Skills Instead – Barry Zhang & Mahesh Murag, Anthropic",
+    "channel": "AI Engineer",
+    "seconds": 982,
+    "publishedAt": "2025-12-08",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "ysPbXH0LpIE",
+    "level": "debutant",
+    "topics": [
+      "prompting"
+    ],
+    "lessonIds": [
+      "l-prompt",
+      "l-avant-apres"
+    ],
+    "language": "en",
+    "title": "Prompting 101 | Code w/ Claude",
+    "channel": "Anthropic",
+    "seconds": 1492,
+    "publishedAt": "2025-07-31",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "T9aRN5JkmL8",
+    "level": "intermediaire",
+    "topics": [
+      "prompting"
+    ],
+    "lessonIds": [
+      "l-techniques-prompt"
+    ],
+    "language": "en",
+    "note": "Longue table ronde : à parcourir par thèmes.",
+    "title": "AI prompt engineering: A deep dive",
+    "channel": "Anthropic",
+    "seconds": 4602,
+    "publishedAt": "2024-09-05",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "cfqtFvWOfg0",
+    "level": "debutant",
+    "topics": [
+      "hallucinations"
+    ],
+    "lessonIds": [
+      "l-hallucinations",
+      "n-05"
+    ],
+    "language": "en",
+    "title": "Why Large Language Models Hallucinate",
+    "channel": "IBM Technology",
+    "seconds": 577,
+    "publishedAt": "2023-04-20",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "005JLRt3gXI",
+    "level": "debutant",
+    "topics": [
+      "hallucinations"
+    ],
+    "lessonIds": [
+      "l-hallucinations"
+    ],
+    "language": "en",
+    "title": "Why do AI models hallucinate?",
+    "channel": "Claude",
+    "seconds": 313,
+    "publishedAt": "2026-04-15",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "jrHRe9lSqqA",
+    "level": "intermediaire",
+    "topics": [
+      "securite",
+      "injection-de-prompt"
+    ],
+    "lessonIds": [
+      "l-confidentialite-injection",
+      "n-05",
+      "e-securite-menaces"
+    ],
+    "language": "en",
+    "title": "What Is a Prompt Injection Attack?",
+    "channel": "IBM Technology",
+    "seconds": 657,
+    "publishedAt": "2024-05-30",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  },
+  {
+    "id": "trfUBIDeI1Y",
+    "level": "intermediaire",
+    "topics": [
+      "evaluation"
+    ],
+    "lessonIds": [
+      "l-evaluation"
+    ],
+    "language": "en",
+    "title": "LLM as a Judge: Scaling AI Evaluation Strategies",
+    "channel": "IBM Technology",
+    "seconds": 368,
+    "publishedAt": "2025-09-15",
+    "frenchSubtitles": false,
+    "verifiedAt": "2026-10-26"
+  }
+]

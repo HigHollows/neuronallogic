@@ -1,0 +1,175 @@
+{
+  "checkedOn": "2026-10-26",
+  "intro": "Le manuel « Comprendre l'intelligence artificielle » (52 pages, version d'octobre 2026) est la base du cours, mais pas une source infaillible. Chaque modification d'une affirmation est consignée ici : passage concerné, problème, correction et justification. Aucune notion importante n'a été supprimée.",
+  "types": {
+    "erreur": "Erreur certaine",
+    "mise-a-jour": "Mise à jour (information qui a évolué)",
+    "precision": "Précision ou nuance ajoutée",
+    "ambiguite": "Formulation ambiguë clarifiée",
+    "complement": "Complément",
+    "forme": "Mise en forme / extraction"
+  },
+  "items": [
+    {
+      "id": "c01", "type": "erreur", "chapter": "38",
+      "passage": "« Routine quotidienne de 30 à 45 minutes » : 10 min de lecture + 10 min de reformulation + 10 min d'exercice + 5 à 15 min de test.",
+      "problem": "Les durées listées font 35 à 45 minutes (10 + 10 + 10 + 5 = 35 au minimum), pas 30 à 45.",
+      "correction": "« Environ 35 à 45 minutes par jour ».",
+      "justification": "Erreur d'arithmétique vérifiable ; l'incohérence aurait pu décourager ou désorienter un apprenant qui chronomètre sa routine."
+    },
+    {
+      "id": "c02", "type": "mise-a-jour", "chapter": "18, 39, 49",
+      "passage": "Lien officiel MCP : https://modelcontextprotocol.io/introduction (aussi dans la liste de ressources).",
+      "problem": "Le lien redirige désormais vers une documentation versionnée par date (/docs/2026-07-28/getting-started/intro).",
+      "correction": "Lien vers la page d'accueil modelcontextprotocol.io et mention explicite que la documentation est versionnée.",
+      "justification": "Un chemin contenant une date de version cassera à la prochaine publication ; la racine du site reste stable. Vérifié le 2026-10-26."
+    },
+    {
+      "id": "c03", "type": "mise-a-jour", "chapter": "39, 49",
+      "passage": "Hugging Face NLP Course : https://huggingface.co/learn/nlp-course/chapter1/1.",
+      "problem": "Le cours a été renommé : l'adresse redirige vers huggingface.co/learn/llm-course/chapter1/1.",
+      "correction": "Nouveau nom et nouvelle adresse (« LLM Course »).",
+      "justification": "Redirection constatée le 2026-10-26. Le contenu ciblé reste pertinent."
+    },
+    {
+      "id": "c04", "type": "mise-a-jour", "chapter": "39, 49",
+      "passage": "Documentation OpenAI : https://platform.openai.com/docs/.",
+      "problem": "L'adresse redirige désormais vers developers.openai.com/api/docs.",
+      "correction": "Nouvelle adresse ; précision que l'usage de cette API exige un compte et peut être payant, donc qu'elle n'est pas nécessaire à la formation.",
+      "justification": "Redirection constatée le 2026-10-26 ; règle de gratuité du projet : aucun service payant ne doit être indispensable."
+    },
+    {
+      "id": "c05", "type": "mise-a-jour", "chapter": "18, 19",
+      "passage": "« Le client et le serveur négocient ou vérifient les capacités et la version prises en charge » ; « les transports et détails de déploiement dépendent de la version ».",
+      "problem": "La formulation reste exacte mais très vague. La spécification en vigueur au moment de la vérification (version 2026-07-28) a changé de fonctionnement : protocole sans état (chaque requête porte version et capacités), requête de découverte server/discover optionnelle, transports stdio et Streamable HTTP, fonction « sampling » dépréciée, « elicitation » côté client.",
+      "correction": "La leçon décrit le cycle de façon indépendante de la version, puis précise ce qui a changé entre versions et renvoie à la spécification.",
+      "justification": "Source primaire : documentation officielle MCP (page Architecture, version 2026-07-28), consultée le 2026-10-26. Un lecteur qui implémente doit cibler une version précise."
+    },
+    {
+      "id": "c06", "type": "complement", "chapter": "19",
+      "passage": "Bonnes pratiques pour les serveurs MCP (limiter les droits, confirmer les actions sensibles…).",
+      "problem": "Le chapitre ne mentionne pas les risques spécifiques documentés par le projet MCP.",
+      "correction": "Ajout : un serveur local est du code exécuté avec les droits de l'utilisateur (consentement explicite avant lancement, exécution restreinte), interdiction de faire suivre des jetons non émis pour le serveur (« token passthrough »), permissions (scopes) minimales.",
+      "justification": "Source primaire : page « Security Best Practices » de la documentation MCP, consultée le 2026-10-26. L'ajout renforce le message du manuel (« le protocole ne suffit pas ») sans le contredire."
+    },
+    {
+      "id": "c07", "type": "precision", "chapter": "3",
+      "passage": "« Poser une question à un assistant ne réentraîne généralement pas son modèle de fond. »",
+      "problem": "Exacte pour le comportement pendant la réponse, mais laisse croire que les conversations n'ont aucun effet sur l'amélioration future des modèles.",
+      "correction": "Nuance ajoutée : selon le produit et les réglages, les conversations peuvent être conservées et parfois utilisées pour améliorer de futurs modèles ; il faut vérifier les paramètres de confidentialité.",
+      "justification": "Cohérent avec le chapitre 25 du manuel (confidentialité) ; évite une fausse assurance."
+    },
+    {
+      "id": "c08", "type": "precision", "chapter": "14, notion 15",
+      "passage": "Fenêtre de contexte : « quantité maximale de tokens que le modèle peut prendre en compte dans une requête donnée », pouvant inclure « la réponse en cours ».",
+      "problem": "Selon les fournisseurs, la limite d'entrée et la limite de sortie sont parfois distinctes.",
+      "correction": "Mention : certains fournisseurs fixent aussi une limite séparée de longueur de sortie.",
+      "justification": "Évite qu'un lecteur déduise à tort que toute la fenêtre est disponible pour la réponse. À vérifier dans la documentation du fournisseur utilisé."
+    },
+    {
+      "id": "c09", "type": "precision", "chapter": "14, notion 19",
+      "passage": "« Une température plus basse tend souvent à rendre les sorties plus prévisibles. »",
+      "problem": "Formulation prudente et correcte, mais un débutant peut en déduire « température 0 = réponse toujours identique et vraie ».",
+      "correction": "Ajouts : une température basse ne garantit ni l'exactitude ni un résultat strictement identique d'un appel à l'autre ; certains modèles n'exposent pas ce réglage.",
+      "justification": "Consigne de la mission : ne jamais présenter une simplification sans en indiquer la limite."
+    },
+    {
+      "id": "c10", "type": "ambiguite", "chapter": "22",
+      "passage": "Bloc « Rôle / perspective » — exemple : « Agis comme un formateur débutant. »",
+      "problem": "Ambigu : « formateur débutant » peut se comprendre comme un formateur qui débute, alors que l'intention est un formateur qui s'adresse à des débutants.",
+      "correction": "« Agis comme un formateur pour débutants. »",
+      "justification": "Clarté. L'exemple du prompt amélioré du même chapitre confirme l'intention."
+    },
+    {
+      "id": "c11", "type": "complement", "chapter": "23",
+      "passage": "« Séparer données et instructions — utiliser des délimiteurs clairs autour du contenu fourni. »",
+      "problem": "Peut donner une impression de protection contre les instructions cachées dans les données.",
+      "correction": "Ajout : les délimiteurs aident à la clarté mais ne garantissent pas une protection contre l'injection de prompt.",
+      "justification": "Cohérence avec le chapitre 25 et avec la documentation de sécurité (OWASP LLM Top 10)."
+    },
+    {
+      "id": "c12", "type": "complement", "chapter": "3",
+      "passage": "Surapprentissage / sous-apprentissage / « tester sur des données séparées ».",
+      "problem": "Le manuel ne précise pas comment séparer les données.",
+      "correction": "Ajout du découpage entraînement / validation / test et du risque d'évaluer sur les données d'entraînement.",
+      "justification": "Notion élémentaire pour comprendre la généralisation ; cohérent avec le chapitre 27 (jeu de test séparé)."
+    },
+    {
+      "id": "c13", "type": "complement", "chapter": "28 (notion), 29",
+      "passage": "Fine-tuning ; modèles à poids ouverts.",
+      "problem": "Deux distinctions importantes absentes : (1) fine-tuning pour un comportement stable vs RAG pour des faits changeants ; (2) « poids ouverts » vs « open source ».",
+      "correction": "Ajouts : rôle du fine-tuning et méthodes légères (type LoRA) ; renvoi à l'Open Source AI Definition 1.0 de l'Open Source Initiative (publiée fin 2024).",
+      "justification": "Le manuel annonce ces distinctions dans sa fiche de révision (chapitre 40) sans les développer. Source : opensource.org (page vérifiée le 2026-10-26)."
+    },
+    {
+      "id": "c14", "type": "complement", "chapter": "12",
+      "passage": "Tableau des erreurs : 401, 403, 404, 429, 5xx.",
+      "problem": "Absents : 400/422 (requête invalide), délai indiqué par le serveur pour les reprises, idempotence.",
+      "correction": "Ajout d'une note sur 400/422, du principe de respect du délai de reprise indiqué par le service, et de l'idempotence pour les actions sensibles.",
+      "justification": "Complète sans modifier la logique du chapitre ; l'idempotence figure déjà dans le glossaire complémentaire du manuel."
+    },
+    {
+      "id": "c15", "type": "complement", "chapter": "15",
+      "passage": "Embeddings : « des contenus ayant des significations proches produisent des vecteurs proches ».",
+      "problem": "Ne précise pas que les embeddings de modèles différents ne sont pas comparables.",
+      "correction": "Ajout : question et documents doivent être vectorisés avec le même modèle ; la recherche par mots exacts reste préférable pour les références précises.",
+      "justification": "Erreur d'implémentation fréquente chez les débutants."
+    },
+    {
+      "id": "c16", "type": "complement", "chapter": "27",
+      "passage": "Grille d'évaluation et création d'un jeu de test.",
+      "problem": "L'évaluation automatisée par un autre modèle (« LLM-as-judge ») n'est pas mentionnée.",
+      "correction": "Ajout d'un paragraphe : pratique courante, mais le juge a ses propres biais ; à calibrer sur un échantillon noté par des humains.",
+      "justification": "Pratique répandue que le lecteur rencontrera ; mise en garde cohérente avec l'esprit du manuel."
+    },
+    {
+      "id": "c17", "type": "ambiguite", "chapter": "9 (notions 41 à 50)",
+      "passage": "Les notions 41 (système de récupération), 42 (corpus) et 43 (chunking) sont classées dans « Fiabilité, sécurité et exploitation ».",
+      "problem": "Ces trois notions relèvent du RAG (chapitre 16), pas de la fiabilité ou de la sécurité au sens strict ; le terme « système de récupération » est par ailleurs peu usuel (on dit plutôt « retriever » ou « moteur de recherche documentaire »).",
+      "correction": "Numérotation et regroupement conservés pour rester fidèle au manuel ; les fiches 41 à 43 renvoient à la leçon sur le RAG, et la fiche 41 mentionne le terme anglais « retriever ».",
+      "justification": "Ne pas renuméroter les « 50 notions » évite de casser la correspondance avec le PDF."
+    },
+    {
+      "id": "c18", "type": "ambiguite", "chapter": "41",
+      "passage": "Le glossaire complémentaire reprend « Observabilité » déjà présente dans les 50 notions (n° 50) et « Fine-tuning supervisé » proche de la notion 28.",
+      "problem": "Répétition.",
+      "correction": "« Observabilité » est retirée du glossaire complémentaire ; « Fine-tuning supervisé » est conservé (cas particulier). Quatre termes sont ajoutés : recherche hybride, reclassement, similarité cosinus, poids ouverts (définis dans les chapitres 15 et 29 mais absents du glossaire).",
+      "justification": "Éviter les doublons sans perdre de contenu."
+    },
+    {
+      "id": "c19", "type": "ambiguite", "chapter": "20",
+      "passage": "Définition de « skill » : « ensemble réutilisable de consignes, de procédures et éventuellement de fichiers de référence ».",
+      "problem": "Le chapitre précise justement que le sens dépend de la plateforme, mais ne distingue pas explicitement trois cas fréquents.",
+      "correction": "La leçon distingue : procédure réutilisable (documentaire), consignes avec ressources, et paquet pouvant contenir des scripts exécutables, avec la conséquence sur les permissions.",
+      "justification": "Exigence de la mission : « distingue une procédure réutilisable, des instructions documentaires et un programme exécutable »."
+    },
+    {
+      "id": "c20", "type": "mise-a-jour", "chapter": "39",
+      "passage": "Sept entrées de la bibliothèque sont de simples recherches YouTube (réseaux de neurones, Transformer, API, RAG, MCP, prompt engineering…).",
+      "problem": "Les résultats d'une recherche changent à chaque consultation ; le manuel le reconnaît lui-même. Impossible de garantir niveau, date ou qualité.",
+      "correction": "Remplacées par 32 vidéos identifiées, dont titre, chaîne, durée, date et sous-titres publiés ont été vérifiés automatiquement (outil tools/verify-videos.mjs). Les deux vidéos du manuel (3Blue1Brown, Karpathy) sont conservées.",
+      "justification": "Exigence de la mission : ne jamais inventer de lien, de titre, de durée ou de sous-titre ; privilégier les contenus récents pour MCP."
+    },
+    {
+      "id": "c21", "type": "forme", "chapter": "Tout le document",
+      "passage": "Balises <b>, <br/> et <link> visibles dans le texte, puces et cases à cocher rendues par des caractères (« q », « s »), titre de couverture coupé (« L'INTELLIGEN CE »).",
+      "problem": "Défauts de génération du PDF, sans conséquence sur le sens.",
+      "correction": "Contenu retranscrit proprement ; les cases de la check-list du chapitre 45 deviennent de vraies cases à cocher persistantes.",
+      "justification": "Lisibilité et accessibilité."
+    },
+    {
+      "id": "c22", "type": "forme", "chapter": "10, 12, 17, 20, 21, 22, 27, 28, 29, 48",
+      "passage": "Tableaux à plusieurs colonnes.",
+      "problem": "À l'extraction du texte, les colonnes sont désalignées (les lignes d'un même tableau se mélangent). Le rendu visuel du PDF n'a pas pu être examiné image par image dans cet environnement.",
+      "correction": "Les associations ont été reconstituées d'après le sens et la logique de chaque tableau (par exemple 401 → authentification, 403 → permissions, 404 → endpoint, 429 → réduire la fréquence, 5xx → journaux et reprises prudentes).",
+      "justification": "Les reconstitutions sont cohérentes avec le reste du manuel, mais une relecture de ces tableaux contre le PDF d'origine est recommandée avant publication définitive."
+    }
+  ],
+  "verified": [
+    "Définitions des 50 notions : conformes aux sources de référence consultées ; aucune erreur factuelle certaine trouvée dans le fond (les ajouts ci-dessus sont des précisions).",
+    "Architecture MCP (hôte, client, serveur ; outils, ressources, prompts) : conforme à la documentation officielle.",
+    "Vidéos citées (3Blue1Brown « But what is a neural network? » ; Andrej Karpathy « Let's build GPT ») : existent, correspondent au sujet annoncé, sont en anglais, avec sous-titres français publiés pour les deux.",
+    "Google Machine Learning Crash Course : lien valide.",
+    "Distinctions pédagogiques du manuel (analogie ≠ équivalence, plausible ≠ vrai, workflow ≠ agent, MCP ≠ garantie de sécurité) : conservées et renforcées."
+  ]
+}

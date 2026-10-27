@@ -1,0 +1,27 @@
+# Vérification mensuelle des liens et des vidéos (utile si le projet est publié sur GitHub).
+# Aucun secret nécessaire : tout est public. Le workflow échoue si un lien est mort ou si les tests ne passent plus.
+name: Vérifier liens, vidéos et tests
+
+on:
+  schedule:
+    - cron: '0 6 1 * *' # le 1er de chaque mois à 6 h (UTC)
+  workflow_dispatch: {}
+  pull_request: {}
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - name: Liens de documentation
+        run: npm run verify:links
+      - name: Vidéos (régénère videos.json dans l’environnement de test)
+        run: node tools/verify-videos.mjs

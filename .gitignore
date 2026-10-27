@@ -1,0 +1,9 @@
+node_modules
+dist
+.vercel
+.env*
+*.log
+source/manuel.txt
+.vitest-report.json
+
+.vercel

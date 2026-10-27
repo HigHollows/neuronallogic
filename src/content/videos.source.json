@@ -1,0 +1,408 @@
+[
+  {
+    "id": "aircAruvnKk",
+    "level": "debutant",
+    "topics": [
+      "reseaux-de-neurones"
+    ],
+    "lessonIds": [
+      "l-reseau",
+      "n-01"
+    ],
+    "language": "en",
+    "note": "Visualisation de référence : neurones, couches, poids."
+  },
+  {
+    "id": "IHZwWFHWa-w",
+    "level": "debutant",
+    "topics": [
+      "reseaux-de-neurones",
+      "entrainement"
+    ],
+    "lessonIds": [
+      "l-apprentissage"
+    ],
+    "language": "en",
+    "note": "Descente de gradient et apprentissage."
+  },
+  {
+    "id": "Ilg3gGewQ5U",
+    "level": "intermediaire",
+    "topics": [
+      "reseaux-de-neurones",
+      "entrainement"
+    ],
+    "lessonIds": [
+      "l-apprentissage"
+    ],
+    "language": "en",
+    "note": "Rétropropagation, sans calcul formel."
+  },
+  {
+    "id": "wjZofJX0v4M",
+    "level": "debutant",
+    "topics": [
+      "llm",
+      "transformer"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "n-02"
+    ],
+    "language": "en",
+    "note": "Vue d'ensemble visuelle du Transformer et de la génération de texte."
+  },
+  {
+    "id": "eMlx5fFNoYc",
+    "level": "intermediaire",
+    "topics": [
+      "llm",
+      "transformer",
+      "attention"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "e-attention-calcul"
+    ],
+    "language": "en",
+    "note": "Le mécanisme d'attention en détail."
+  },
+  {
+    "id": "zjkBMFhNj_g",
+    "level": "debutant",
+    "topics": [
+      "llm"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "l-limites",
+      "n-02"
+    ],
+    "language": "en",
+    "note": "Introduction générale aux LLM, ses usages et ses risques."
+  },
+  {
+    "id": "7xTGNNLPyMI",
+    "level": "intermediaire",
+    "topics": [
+      "llm",
+      "entrainement",
+      "hallucinations"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "l-hallucinations"
+    ],
+    "language": "en",
+    "note": "Très long : à parcourir par chapitres."
+  },
+  {
+    "id": "kCc8FmEb1nY",
+    "level": "avance",
+    "topics": [
+      "llm",
+      "transformer"
+    ],
+    "lessonIds": [
+      "l-llm",
+      "e-attention-calcul"
+    ],
+    "language": "en",
+    "note": "Construction d'un petit GPT en code. Demande de savoir lire du Python."
+  },
+  {
+    "id": "zduSFxRajkE",
+    "level": "avance",
+    "topics": [
+      "tokens"
+    ],
+    "lessonIds": [
+      "l-llm"
+    ],
+    "language": "en",
+    "note": "Construction d'un tokenizer. Très technique."
+  },
+  {
+    "id": "FJtFZwbvkI4",
+    "level": "intermediaire",
+    "topics": [
+      "embeddings"
+    ],
+    "lessonIds": [
+      "l-embeddings"
+    ],
+    "language": "en",
+    "note": "Extrait court sur les vecteurs de mots."
+  },
+  {
+    "id": "wgfSDrqYMJ4",
+    "level": "debutant",
+    "topics": [
+      "embeddings"
+    ],
+    "lessonIds": [
+      "l-embeddings"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "viZrOnJclY0",
+    "level": "intermediaire",
+    "topics": [
+      "embeddings"
+    ],
+    "lessonIds": [
+      "l-embeddings"
+    ],
+    "language": "en",
+    "note": "Plus ancien et centré sur word2vec : utile pour l'intuition."
+  },
+  {
+    "id": "T-D1OfcDW1M",
+    "level": "debutant",
+    "topics": [
+      "rag"
+    ],
+    "lessonIds": [
+      "l-rag",
+      "n-03"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "00Q0G84kq3M",
+    "level": "debutant",
+    "topics": [
+      "rag",
+      "fine-tuning"
+    ],
+    "lessonIds": [
+      "l-memoire-finetuning",
+      "e-adaptation-modeles"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "zYGDpG-pTho",
+    "level": "intermediaire",
+    "topics": [
+      "rag",
+      "fine-tuning",
+      "prompting"
+    ],
+    "lessonIds": [
+      "l-memoire-finetuning",
+      "l-rag",
+      "e-rag-avance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "-0MmWEYR2a8",
+    "level": "debutant",
+    "topics": [
+      "api"
+    ],
+    "lessonIds": [
+      "l-api",
+      "n-03"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "1mXrxc_sv1o",
+    "level": "debutant",
+    "topics": [
+      "frontend-backend"
+    ],
+    "lessonIds": [
+      "l-frontend-backend"
+    ],
+    "language": "en",
+    "note": "Très court."
+  },
+  {
+    "id": "qmpUfWN7hh4",
+    "level": "debutant",
+    "topics": [
+      "api",
+      "http"
+    ],
+    "lessonIds": [
+      "l-requete-erreurs"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "cj3h3Fb10QY",
+    "level": "debutant",
+    "topics": [
+      "api",
+      "json"
+    ],
+    "lessonIds": [
+      "l-api"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "eur8dUO9mvE",
+    "level": "debutant",
+    "topics": [
+      "mcp"
+    ],
+    "lessonIds": [
+      "l-mcp",
+      "n-04"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "cGuyrANVi4A",
+    "level": "intermediaire",
+    "topics": [
+      "mcp"
+    ],
+    "lessonIds": [
+      "l-mcp",
+      "l-serveur-mcp"
+    ],
+    "language": "en",
+    "note": "Récente : à comparer avec la spécification en vigueur."
+  },
+  {
+    "id": "7j1t3UZA1TY",
+    "level": "intermediaire",
+    "topics": [
+      "mcp",
+      "api"
+    ],
+    "lessonIds": [
+      "l-mcp"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "uhJJgc-0iTQ",
+    "level": "intermediaire",
+    "topics": [
+      "agents"
+    ],
+    "lessonIds": [
+      "l-skills-workflows-agents",
+      "n-04",
+      "e-agents-fiables"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "D7_ipDqhtwk",
+    "level": "intermediaire",
+    "topics": [
+      "agents",
+      "workflows"
+    ],
+    "lessonIds": [
+      "l-skills-workflows-agents",
+      "e-agents-fiables"
+    ],
+    "language": "en",
+    "note": "Conférence : quand utiliser (ou non) un agent."
+  },
+  {
+    "id": "fOxC44g8vig",
+    "level": "debutant",
+    "topics": [
+      "skills"
+    ],
+    "lessonIds": [
+      "l-skills-workflows-agents"
+    ],
+    "language": "en",
+    "note": "Présente le concept de skill tel que défini par un fournisseur précis."
+  },
+  {
+    "id": "CEvIs9y1uog",
+    "level": "intermediaire",
+    "topics": [
+      "skills",
+      "agents"
+    ],
+    "lessonIds": [
+      "l-skills-workflows-agents"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "ysPbXH0LpIE",
+    "level": "debutant",
+    "topics": [
+      "prompting"
+    ],
+    "lessonIds": [
+      "l-prompt",
+      "l-avant-apres"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "T9aRN5JkmL8",
+    "level": "intermediaire",
+    "topics": [
+      "prompting"
+    ],
+    "lessonIds": [
+      "l-techniques-prompt"
+    ],
+    "language": "en",
+    "note": "Longue table ronde : à parcourir par thèmes."
+  },
+  {
+    "id": "cfqtFvWOfg0",
+    "level": "debutant",
+    "topics": [
+      "hallucinations"
+    ],
+    "lessonIds": [
+      "l-hallucinations",
+      "n-05"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "005JLRt3gXI",
+    "level": "debutant",
+    "topics": [
+      "hallucinations"
+    ],
+    "lessonIds": [
+      "l-hallucinations"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "jrHRe9lSqqA",
+    "level": "intermediaire",
+    "topics": [
+      "securite",
+      "injection-de-prompt"
+    ],
+    "lessonIds": [
+      "l-confidentialite-injection",
+      "n-05",
+      "e-securite-menaces"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "trfUBIDeI1Y",
+    "level": "intermediaire",
+    "topics": [
+      "evaluation"
+    ],
+    "lessonIds": [
+      "l-evaluation"
+    ],
+    "language": "en"
+  }
+]
